@@ -22,12 +22,74 @@ p{
 }
 
 img {
+       /* align center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 250px;
-   /* align center */
-   border: 10px dashed #FFFF;
+    border: 10px dashed #FFFF;
 }
 div {
+    min-height: 125px;
     /* flexible height of at least 125px tall */
     padding: 20px;
     border: 3px solid #FFFF;
 }
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    /* Double-spaced text */
+    line-height: 2;
+}
+ .red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0px, 0px, 2px, 5px;
+    border-style: solid;
+}
+.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px, 5px, 0px, 0px;
+    border-style: solid;
+}
+/* WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  – Dark on blue is too hard to read.   
+Use #C4C4C4 for the heading and paragraph text
+ */
+.blue h1, .blue p {
+    color: #c4c4c4;
+}
+
+.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0px, 0px, 2px, 5px;
+    border-style: solid;
+}
+/* WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  too
+Use #707070 for the paragraph text
+ */
+ .yellow p {
+    color: #707070;
+ }
+ 
+ .green {
+    background-color: #00D800;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px, 5px, 0px, 0px;
+    border-style: solid;
+ }
+ footer {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 25%, rgba(0,0,255,1) 70%, rgba(0,102,255,1) 100%);
+    border: 5px solid #ffff;
+ }
+ footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px, 15px, 15px, 0px;
+ }
