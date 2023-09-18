@@ -66,7 +66,7 @@ div {
 /* WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  – Dark on blue is too hard to read.   
 Use #C4C4C4 for the heading and paragraph text
  */
-.blue h1, .blue p {
+.blue h2, .blue p {
     color: #C4C4C4;
 }
 
@@ -89,7 +89,7 @@ Use #707070 for the paragraph text
  }
  
  .green {
-    background-color: #00D800;
+    background-color: #00EB00;
     text-align: left;
     margin-right: 50px;
     border-top: 2px;
