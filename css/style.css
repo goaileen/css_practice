@@ -59,7 +59,7 @@ div {
 Use #C4C4C4 for the heading and paragraph text
  */
 .blue h1, .blue p {
-    color: #c4c4c4;
+    color: #C4C4C4;
 }
 
 .yellow {
@@ -91,5 +91,9 @@ Use #707070 for the paragraph text
  footer p {
     font-size: 20px;
     text-align: right;
-    padding: 15px, 15px, 15px, 0px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    /* padding: 15px, 15px, 15px, 0px; */
  }
